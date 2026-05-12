@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "flymod",
+  "version": "1.0.0",
+  "name": "Simple Fly Mod",
+  "entrypoints": {
+    "main": [
+      "com.duongdev.flymod.FlyMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.17.1",
+    "java": "16"
+  }
+}
