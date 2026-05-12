@@ -1,6 +1,13 @@
 plugins {
-    id 'fabric-loom' version '0.10-SNAPSHOT'
+    id 'fabric-loom' version '1.4-SNAPSHOT'
 }
+
+sourceCompatibility = JavaVersion.VERSION_16
+targetCompatibility = JavaVersion.VERSION_16
+
+archivesBaseName = "FlyMod"
+version = "1.0.0"
+group = "com.duongdev.flymod"
 
 dependencies {
     minecraft 'com.mojang:minecraft:1.17.1'
